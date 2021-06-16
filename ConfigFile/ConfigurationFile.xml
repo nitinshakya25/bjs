@@ -13,7 +13,7 @@
 		</Node>
 		<Node>
 			<TestGroup>debug</TestGroup>
-			<Browser>22223222 Chrome,Firefox</Browser>
+			<Browser>2222222 Chrome,Firefox</Browser>
 			<LoginUrl>2222222 Reminder</LoginUrl>
 			<AdminUserName>2222222 AdminUserName_Test</AdminUserName>
 			<AdminPassword>2222222 AdminPassword_Test</AdminPassword>

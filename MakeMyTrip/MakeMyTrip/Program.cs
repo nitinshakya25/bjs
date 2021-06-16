@@ -25,7 +25,7 @@ namespace MakeMyTrip
     {
         [STAThread]
         public static int Main(string[] args)
-        {
+        {        	
             // Uncomment the following 2 lines if you want to automate Windows apps
             // by starting the test executable directly
             //if (Util.IsRestartRequiredForWinAppAccess)
