@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{FC1C5C2D-DEA2-44E6-A620-E33DBC5E92B8}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MakeMyTrip[MakeMyTrip[]]]&#xD;&#xA;Solution MakeMyTrip\MakeMyTrip\MakeMyTrip.rxtst&#xD;&#xA;Solution MakeMyTrip" />
+  <StartupProject value="{FC1C5C2D-DEA2-44E6-A620-E33DBC5E92B8}" />
+</Properties>

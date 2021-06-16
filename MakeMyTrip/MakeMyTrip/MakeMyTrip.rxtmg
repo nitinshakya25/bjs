@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MakeMyTrip"
+      id="a7d42894-a6a1-4570-b53d-7d53df4facfc"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MakeMyTrip"
+      id="a7d42894-a6a1-4570-b53d-7d53df4facfc"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

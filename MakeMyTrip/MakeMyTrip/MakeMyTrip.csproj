@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{FC1C5C2D-DEA2-44E6-A620-E33DBC5E92B8}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MakeMyTrip</RootNamespace>
+    <AssemblyName>MakeMyTrip</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>dfdb681e-f7d7-449f-9be6-efcd4eb7ba32</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.Generator">
+      <HintPath>..\packages\SpecFlow.CustomPlugin.1.9.0\lib\net40\TechTalk.SpecFlow.Generator.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.Parser">
+      <HintPath>..\packages\SpecFlow.CustomPlugin.1.9.0\lib\net40\TechTalk.SpecFlow.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.Utils">
+      <HintPath>..\packages\SpecFlow.CustomPlugin.1.9.0\lib\net40\TechTalk.SpecFlow.Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>d5a5cc8a-36ab-4d96-b090-8be67fc3e15d</id>
+    </Compile>
+    <Compile Include="lib\langFiles\Engligh.Designer.cs">
+      <BoundTo>9bf46672-b238-49c0-973c-bea2157a16c7</BoundTo>
+      <DependentUpon>English.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>cc5ad351-e560-4d0d-b0b2-c09090215c89</id>
+    </Compile>
+    <Compile Include="lib\langFiles\English.Designer.cs">
+      <BoundTo>9bf46672-b238-49c0-973c-bea2157a16c7</BoundTo>
+      <DependentUpon>English.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>3a0b3d57-e111-472c-a3dd-29c0384298ae</id>
+    </Compile>
+    <Compile Include="lib\langFiles\French.Designer.cs">
+      <BoundTo>ffe182a7-ef60-433c-a7e6-1e558add69e7</BoundTo>
+      <DependentUpon>French.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>f60ba327-45dc-4f4b-adf3-a803ce228ad6</id>
+    </Compile>
+    <Compile Include="lib\mmt\homePage.cs">
+      <id>baccab16-44b8-4f05-9736-5367c95aca18</id>
+    </Compile>
+    <Compile Include="lib\util\browserOperations.cs">
+      <id>f23ddaea-8419-40d3-90fa-97392ae439aa</id>
+    </Compile>
+    <Compile Include="lib\util\languageReader.cs">
+      <id>efd7621a-bee2-4c39-b371-a75a1515ac34</id>
+    </Compile>
+    <Compile Include="lib\util\utility.cs">
+      <id>926e2713-184b-409d-ab07-00acc9476ccb</id>
+    </Compile>
+    <Compile Include="lib\util\xmlNodeClass.cs">
+      <id>be297238-9117-4719-a434-05695bd011bd</id>
+    </Compile>
+    <Compile Include="lib\util\xml_File_Reader.cs">
+      <id>36666db9-6308-478e-a712-e48cd477e482</id>
+    </Compile>
+    <Compile Include="MakeMyTripRepository.cs">
+      <BoundTo>dfdb681e-f7d7-449f-9be6-efcd4eb7ba32</BoundTo>
+      <DependentUpon>MakeMyTripRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ecfd4d3e-8df5-435d-abbd-64b290955b36</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>9cd9b56e-8499-47f1-8aa0-3f24b186c3b5</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>d997b6a2-73ec-499e-a659-91ffb93d51db</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>75de449b-d25d-49e9-9cb7-72ffc1d3eda6</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>d997b6a2-73ec-499e-a659-91ffb93d51db</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8a1b84f9-14ff-4c9c-b991-08b407cf14c9</id>
+    </Compile>
+    <Compile Include="testSteps\mmtTest.cs">
+      <id>fec7fb3d-bca9-4bd2-bfb7-9b9e3135ed00</id>
+    </Compile>
+    <Compile Include="test\mmtTest.feature.cs">
+      <BoundTo>468452d6-b679-481d-9538-89b34f1155cb</BoundTo>
+      <DependentUpon>mmtTest.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <id>9c07a178-e99d-4552-a547-e07789918cbb</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>93d18730-6d10-4265-95f4-2ee195ab360b</id>
+    </None>
+    <None Include="MakeMyTripRepository.rximg">
+      <BoundTo>dfdb681e-f7d7-449f-9be6-efcd4eb7ba32</BoundTo>
+      <DependentUpon>MakeMyTripRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b8b25809-2640-4e12-a5fe-171d2d0e37db</id>
+    </None>
+    <None Include="MakeMyTripRepository.rxrep">
+      <id>dfdb681e-f7d7-449f-9be6-efcd4eb7ba32</id>
+      <repoid>184422ed-324a-4aed-b039-58148eae1b2b</repoid>
+      <reporootid>7cf8b46d-c687-4f16-bfce-cf02b6431f7c</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>cf8190ee-8974-4be7-a320-a05346e5c23e</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>dfdb681e-f7d7-449f-9be6-efcd4eb7ba32</BoundTo>
+      <id>d997b6a2-73ec-499e-a659-91ffb93d51db</id>
+      <recordtableid>a932651b-bdb4-4264-b9d5-3d65a36a1ad4</recordtableid>
+    </None>
+    <None Include="test\mmtTest.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <id>468452d6-b679-481d-9538-89b34f1155cb</id>
+      <LastGenOutput>mmtTest.feature.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MakeMyTrip.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>235fa926-c348-4fe1-9c7f-ffa27b336a50</id>
+    </Content>
+    <Content Include="MakeMyTrip.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>45a09690-37e7-4129-abf4-151341d009f4</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib">
+      <id>b8bf9353-873a-4845-bc5d-84f7fa3f8eb5</id>
+    </Folder>
+    <Folder Include="lib\mmt">
+      <id>1c3e0c08-dc65-407c-bff4-49dc3846c994</id>
+    </Folder>
+    <Folder Include="lib\langFiles">
+      <id>863f40d8-d4f7-43f0-b80d-9dbfc6866937</id>
+    </Folder>
+    <Folder Include="lib\util">
+      <id>03376f93-a3b0-43ee-a2e0-f4daa8926b8d</id>
+    </Folder>
+    <Folder Include="testSteps">
+      <id>1908c3fc-04fa-4aa9-a330-2e5783d04d33</id>
+    </Folder>
+    <Folder Include="test">
+      <id>9b7fdb53-bcc5-44af-aaf1-7af385607887</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="lib\langFiles\English.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <id>9bf46672-b238-49c0-973c-bea2157a16c7</id>
+      <LastGenOutput>Engligh.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lib\langFiles\French.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <id>ffe182a7-ef60-433c-a7e6-1e558add69e7</id>
+      <LastGenOutput>French.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

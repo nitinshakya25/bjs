@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e154103adb6b48"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="nitinshak"
+		rxversion="8.3.3.0"
+		host="7VDFPQ2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/12/2021 12:00:22 AM"
+		timestampiso="2021-06-11T18:30:22"
+		endtime="6/12/2021 12:00:31 AM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.146"
+			timeRelativeToTestModuleStartTime="00:00.148"
+			timeWallClock="00:00:22"
+			time="00:00.146"
+			level="Info"
+			category="User">
+			<message>
+				Launched URL :https://www.makemytrip.com/
+			</message>
+			<metainfo
+				codefile="C:\BJS\MakeMyTrip\MakeMyTrip\lib\util\browserOperations.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.514"
+			timeRelativeToTestModuleStartTime="00:00.516"
+			timeWallClock="00:00:22"
+			time="00:00.514"
+			level="Warn"
+			category="Automation">
+			<message>
+				The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+			</message>
+			<metainfo
+				codefile="C:\BJS\MakeMyTrip\MakeMyTrip\lib\util\browserOperations.cs"
+				codeline="97"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.675"
+			timeRelativeToTestModuleStartTime="00:08.677"
+			timeWallClock="00:00:31"
+			time="00:08.675"
+			level="Info"
+			category="User">
+			<message>
+				tab
+			</message>
+			<metainfo
+				codefile="C:\BJS\MakeMyTrip\MakeMyTrip\testSteps\mmtTest.cs"
+				codeline="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report progress="">
+  <activity result="Success" duration="3.4m" durationms="202233" type="root" rid="1574b0822a1f0e4a" totalerrorcount="1" totalwarningcount="1" totalsuccesstestcasecount="1" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="1" childfailedcount="0" childblockedcount="0" totalsuccesscount="1" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" user="nitinshak" rxversion="8.3.2.0" host="7VDFPQ2" osversion="Windows 10 64bit" runtimeversion="4.0.30319.42000" procarch="32bit" oslanguage="en-US" dtnlanguage="en-US" screenresolution="1920x1080" timestamp="5/1/2020 2:49:21 AM" timestampiso="2020-04-30T21:19:21" endtime="5/1/2020 2:52:43 AM" timeoutfactor="1">
+    <detail>
+			Ranorex Testscript
+		</detail>
+    <activity result="Success" duration="3.4m" durationms="202169" type="test-suite" rid="a3c111780f07c85" totalerrorcount="1" totalwarningcount="1" totalsuccesstestcasecount="1" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="1" childfailedcount="0" childblockedcount="0" totalsuccesscount="1" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" testsuitename="Smoke Test-Suite" headertext="Smoke Test-Suite" runconfigname="" runlabel="">
+      <item timeRelativeToTestSuiteStartTime="00:00.456" timeRelativeToTestModuleStartTime="00:00.392" timeWallClock="02:49:21" time="00:00.456" level="Error" category="User">
+        <message>
+					Exception is found with message - Access is denied
+				</message>
+        <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\killBrowserSessions.cs" codeline="69" loglvl="Error">
+        </metainfo>
+      </item>
+      <item timeRelativeToTestSuiteStartTime="00:00.818" timeRelativeToTestModuleStartTime="00:00.754" timeWallClock="02:49:22" time="00:00.818" level="Warn" category="Automation">
+        <message>
+					The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+				</message>
+        <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\LaunchApplication.cs" codeline="91" loglvl="Warn">
+        </metainfo>
+      </item>
+      <activity result="Success" duration="3.2m" durationms="193129" type="test-case" rid="2dea91b0d53759d8" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="1" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="14" childfailedcount="0" childblockedcount="0" totalsuccesscount="1" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" testcontainername="PM_22805" testcontainerid="" headertext="PM_22805" displayName="PM_22805" iteration="1" activity-exectype="execute" conditionstate="none">
+        <detail>
+					T&amp;E:18.3:CF Error generated when expense draft doesn't exists
+				</detail>
+        <activity result="Success" duration="68ms" durationms="68" type="test-module" rid="ab8a74ea61bb8c7" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Launch Application for PM_22805" displayName="Launch Application for PM_22805" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="execute" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:09.109" timeRelativeToTestModuleStartTime="00:00.002" timeWallClock="02:49:30" time="00:09.109" level="Success" category="User" errimg=".\Smoke200_c55c8e0b_d188eff3_trace.jpg" errthumb=".\Smoke200_c55c8e0b_d188eff3_trace_thumb.jpg">
+            <message>
+							Browser is opened and application is launched successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\SmokeTest\testcaseSteps\PM_26608.cs" codeline="32" loglvl="Success">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="15.22s" durationms="15224" type="test-module" rid="c787f1b92ffa22a" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Login" displayName="Login" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:09.191" timeRelativeToTestModuleStartTime="00:00.003" timeWallClock="02:49:30" time="00:09.191" level="Info" category="User">
+            <message>
+							Username = ST_ReqUser1 &amp; Password = Basware@123
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\login\login.cs" codeline="115" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:12.721" timeRelativeToTestModuleStartTime="00:03.533" timeWallClock="02:49:33" time="00:12.721" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_ReqUser1'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:14.072" timeRelativeToTestModuleStartTime="00:04.884" timeWallClock="02:49:35" time="00:14.072" level="Info" category="User">
+            <message>
+							Select Pasword field.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\login\login.cs" codeline="122" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:16.292" timeRelativeToTestModuleStartTime="00:07.104" timeWallClock="02:49:37" time="00:16.292" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'Basware@123'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:24.411" timeRelativeToTestModuleStartTime="00:15.223" timeWallClock="02:49:45" time="00:24.411" level="Info" category="User">
+            <message>
+							Presence of 'Homepage' button is validated.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\login\login.cs" codeline="87" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="16.19s" durationms="16188" type="test-module" rid="51a363a5130463" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Click Expense Report" displayName="Click Expense Report" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:40.770" timeRelativeToTestModuleStartTime="00:16.120" timeWallClock="02:50:01" time="00:40.770" level="Success" category="User">
+            <message>
+							Expense Report tab is clicked successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="67" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:40.835" timeRelativeToTestModuleStartTime="00:16.185" timeWallClock="02:50:02" time="00:40.835" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871eb_rxlog.jpg" errthumb=".\Smoke200_1c3871eb_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="80" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="3.3s" durationms="3304" type="test-module" rid="23885db2393cea0" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Validate No Expense Draft" displayName="Validate No Expense Draft" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:43.704" timeRelativeToTestModuleStartTime="00:02.864" timeWallClock="02:50:04" time="00:43.704" level="Info" category="User">
+            <message>
+							Expense report drop-down is clicked successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="143" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:44.093" timeRelativeToTestModuleStartTime="00:03.253" timeWallClock="02:50:05" time="00:44.093" level="Success" category="User">
+            <message>
+							Presence of 'No drafts' :  Validation is succesful.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="173" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:44.142" timeRelativeToTestModuleStartTime="00:03.302" timeWallClock="02:50:05" time="00:44.142" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871ea_rxlog.jpg" errthumb=".\Smoke200_1c3871ea_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="158" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="2.52s" durationms="2517" type="test-module" rid="fa122091544db70" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Validate 'Go' button on carousel bar " displayName="Validate 'Go' button on carousel bar " moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:45.954" timeRelativeToTestModuleStartTime="00:01.808" timeWallClock="02:50:07" time="00:45.954" level="Info" category="User">
+            <message>
+							'Go' button is clicked.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="241" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:46.605" timeRelativeToTestModuleStartTime="00:02.460" timeWallClock="02:50:07" time="00:46.605" level="Success" category="User">
+            <message>
+							Validation of 'Go Button - Disabled' is successfully completed.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="254" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:46.661" timeRelativeToTestModuleStartTime="00:02.516" timeWallClock="02:50:07" time="00:46.661" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871ed_rxlog.jpg" errthumb=".\Smoke200_1c3871ed_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="268" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <item timeRelativeToTestSuiteStartTime="00:46.673" timeRelativeToTestModuleStartTime="00:37.570" timeWallClock="02:50:07" time="00:46.673" level="Success" category="User">
+          <message>
+						THIS OBEjct PurchaseManager.com.homepage.menuBar.travelAndExpense.manageSearch.expenseDashboard
+					</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="2405" loglvl="Success">
+          </metainfo>
+        </item>
+        <item timeRelativeToTestSuiteStartTime="00:46.673" timeRelativeToTestModuleStartTime="00:37.570" timeWallClock="02:50:07" time="00:46.673" level="Success" category="User">
+          <message>
+						THIS OBEjct hascode41776736
+					</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="2406" loglvl="Success">
+          </metainfo>
+        </item>
+        <activity result="Success" duration="3.21s" durationms="3209" type="test-module" rid="1ea74294a65f09f4" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Carousel Bar: Click on 'New Expense Draft'" displayName="Carousel Bar: Click on 'New Expense Draft'" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:49.883" timeRelativeToTestModuleStartTime="00:03.208" timeWallClock="02:50:11" time="00:49.883" level="Info" category="User">
+            <message>
+							'Create New Expense Draft' button is clicked successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="176" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <item timeRelativeToTestSuiteStartTime="00:49.885" timeRelativeToTestModuleStartTime="00:40.782" timeWallClock="02:50:11" time="00:49.885" level="Info" category="User">
+          <message>
+						Report title - 'PM_22805_05_01_02_50_07'.
+					</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="2429" loglvl="Info">
+          </metainfo>
+        </item>
+        <activity result="Success" duration="1.4m" durationms="84059" type="test-module" rid="154f93d861269b20" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Configure 'Create Expense Report' page" displayName="Configure 'Create Expense Report' page" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="00:49.893" timeRelativeToTestModuleStartTime="00:00.007" timeWallClock="02:50:11" time="00:49.893" level="Info" category="Variables">
+            <message>
+							varReportTitle :PM_22805_05_01_02_50_07<br /> varChargeTo :<br /> varReportDescription :PM_22805_05_01_02_50_07 description<br /> varOnBehalfOfToBeConfigured :False<br /> varOnBehalfOfFieldValue :<br /> varExpenseItem :ST_ExpenseItem1<br /> varExpenseItemDetails :2020/05/01-2020/05/11-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br /> varAccountCodeValue :<br /> varSplitAccount :<br /> varSplitAccountCodeType :Text<br /> varSaveReport :True<br /> varClickCancel :False<br /> varSubmitReport :False
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="223" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:49.895" timeRelativeToTestModuleStartTime="00:00.009" timeWallClock="02:50:11" time="00:49.895" level="Info" category="'Configure Report Details' - Variables">
+            <message>
+							reportTitle :PM_22805_05_01_02_50_07<br /> reportDescription :PM_22805_05_01_02_50_07 description<br /> chargeTo :<br /> varOnBehalfOfToBeConfigured :False<br /> varOnBehalfOfFieldValue :
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="690" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:56.898" timeRelativeToTestModuleStartTime="00:07.011" timeWallClock="02:50:18" time="00:56.898" level="Success" category="User">
+            <message>
+							Text: 'PM_22805_05_01_02_50_07' has been set for the field: 'value'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="113" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:58.551" timeRelativeToTestModuleStartTime="00:08.665" timeWallClock="02:50:19" time="00:58.551" level="Success" category="User">
+            <message>
+							Text: 'PM_22805_05_01_02_50_07 description' has been set for the field: 'innertext'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="113" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:58.552" timeRelativeToTestModuleStartTime="00:08.666" timeWallClock="02:50:19" time="00:58.552" level="Info" category="User">
+            <message>
+							'On Behalf Of' field is not required to be confgured.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="731" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="00:58.562" timeRelativeToTestModuleStartTime="00:08.676" timeWallClock="02:50:19" time="00:58.562" level="Info" category="'AddExpenseItem' - Variables">
+            <message>
+							varExpenseItem :ST_ExpenseItem1<br /> varExpenseItemDetails :2020/05/01-2020/05/11-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br /> varSplitAccount :
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="337" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:10.326" timeRelativeToTestModuleStartTime="00:20.439" timeWallClock="02:50:31" time="01:10.326" level="Success" category="User">
+            <message>
+							Expense item === 2020/05/01-2020/05/11-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="367" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:15.953" timeRelativeToTestModuleStartTime="00:26.067" timeWallClock="02:50:37" time="01:15.953" level="Success" category="User">
+            <message>
+							TEXT TO COPY : '2020/05/01'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:19.372" timeRelativeToTestModuleStartTime="00:29.485" timeWallClock="02:50:40" time="01:19.372" level="Success" category="User">
+            <message>
+							TEXT TO COPY : '2020/05/11'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:21.854" timeRelativeToTestModuleStartTime="00:31.967" timeWallClock="02:50:43" time="01:21.854" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_OriginCity'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:24.588" timeRelativeToTestModuleStartTime="00:34.701" timeWallClock="02:50:45" time="01:24.588" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_OriginState'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:27.455" timeRelativeToTestModuleStartTime="00:37.568" timeWallClock="02:50:48" time="01:27.455" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_DestinationCity'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:30.688" timeRelativeToTestModuleStartTime="00:40.802" timeWallClock="02:50:51" time="01:30.688" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_DestinationState'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:34.054" timeRelativeToTestModuleStartTime="00:44.168" timeWallClock="02:50:55" time="01:34.054" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_Merchant'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:35.405" timeRelativeToTestModuleStartTime="00:45.518" timeWallClock="02:50:56" time="01:35.405" level="Info" category="User">
+            <message>
+							'Merchant' field is configured with value - ST_Merchant
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="425" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:38.054" timeRelativeToTestModuleStartTime="00:48.167" timeWallClock="02:50:59" time="01:38.054" level="Success" category="User">
+            <message>
+							TEXT TO COPY : 'ST_Description draft to be deleted'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:41.754" timeRelativeToTestModuleStartTime="00:51.867" timeWallClock="02:51:02" time="01:41.754" level="Info" category="User">
+            <message>
+							'Description Purpose' field is configured with value - ST_Description draft to be deleted
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="430" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:45.577" timeRelativeToTestModuleStartTime="00:55.690" timeWallClock="02:51:06" time="01:45.577" level="Info" category="User">
+            <message>
+							Payment type is configured with value - Default
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="438" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:46.871" timeRelativeToTestModuleStartTime="00:56.984" timeWallClock="02:51:08" time="01:46.871" level="Success" category="User">
+            <message>
+							TEXT TO COPY : '1.0'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:47.390" timeRelativeToTestModuleStartTime="00:57.503" timeWallClock="02:51:08" time="01:47.390" level="Info" category="User">
+            <message>
+							'Quantity' is configured with value: 1.0
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="443" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:49.604" timeRelativeToTestModuleStartTime="00:59.717" timeWallClock="02:51:10" time="01:49.604" level="Success" category="User">
+            <message>
+							TEXT TO COPY : '13'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:50.018" timeRelativeToTestModuleStartTime="01:00.131" timeWallClock="02:51:11" time="01:50.018" level="Info" category="User">
+            <message>
+							'Amount' is configured with value: 13
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="449" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="01:50.019" timeRelativeToTestModuleStartTime="01:00.132" timeWallClock="02:51:11" time="01:50.019" level="Success" category="User">
+            <message>
+							Item count = 12 
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="500" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:00.365" timeRelativeToTestModuleStartTime="01:10.479" timeWallClock="02:51:21" time="02:00.365" level="Success" category="User">
+            <message>
+							TEXT TO COPY : '13'.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="69" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:00.784" timeRelativeToTestModuleStartTime="01:10.898" timeWallClock="02:51:22" time="02:00.784" level="Info" category="User">
+            <message>
+							'Account Code' field is not required to be configured.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="667" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:08.052" timeRelativeToTestModuleStartTime="01:18.166" timeWallClock="02:51:29" time="02:08.052" level="Success" category="User">
+            <message>
+							Saving of report -  Validation is succesful.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="173" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:13.944" timeRelativeToTestModuleStartTime="01:24.057" timeWallClock="02:51:35" time="02:13.944" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871ec_rxlog.jpg" errthumb=".\Smoke200_1c3871ec_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDashboard.cs" codeline="297" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="8.58s" durationms="8584" type="test-module" rid="eadc232c360862" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Search Home Button" displayName="Search Home Button" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="02:22.478" timeRelativeToTestModuleStartTime="00:08.530" timeWallClock="02:51:43" time="02:22.478" level="Success" category="User">
+            <message>
+							Home button is clicked succesffuly.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="234" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:22.530" timeRelativeToTestModuleStartTime="00:08.582" timeWallClock="02:51:43" time="02:22.530" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871ef_rxlog.jpg" errthumb=".\Smoke200_1c3871ef_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="247" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="17.51s" durationms="17508" type="test-module" rid="1d7ff7653e6af09b" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Click Expense Report" displayName="Click Expense Report" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="02:39.962" timeRelativeToTestModuleStartTime="00:17.429" timeWallClock="02:52:01" time="02:39.962" level="Success" category="User">
+            <message>
+							Expense Report tab is clicked successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="67" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:40.039" timeRelativeToTestModuleStartTime="00:17.506" timeWallClock="02:52:01" time="02:40.039" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871ee_rxlog.jpg" errthumb=".\Smoke200_1c3871ee_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="80" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="3.24s" durationms="3235" type="test-module" rid="125556b4ddd08444" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Validate Expense Draft " displayName="Validate Expense Draft " moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="02:40.043" timeRelativeToTestModuleStartTime="00:00.001" timeWallClock="02:52:01" time="02:40.043" level="Info" category="Variables">
+            <message>
+							varDraftName :PM_22805_05_01_02_50_07
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="103" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:43.122" timeRelativeToTestModuleStartTime="00:03.079" timeWallClock="02:52:04" time="02:43.122" level="Success" category="User">
+            <message>
+							Presence of draft - 'PM_22805_05_01_02_50_07' :  Validation is succesful.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\stringOperations.cs" codeline="173" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:43.228" timeRelativeToTestModuleStartTime="00:03.185" timeWallClock="02:52:04" time="02:43.228" level="Info" category="User">
+            <message>
+							Draft : 'PM_22805_05_01_02_50_07' is validated succssfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="112" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:43.276" timeRelativeToTestModuleStartTime="00:03.233" timeWallClock="02:52:04" time="02:43.276" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871f1_rxlog.jpg" errthumb=".\Smoke200_1c3871f1_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="125" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="4.29s" durationms="4288" type="test-module" rid="6ccae4ff9764622" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Validate 'Go' button on carousel bar " displayName="Validate 'Go' button on carousel bar " moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="02:45.055" timeRelativeToTestModuleStartTime="00:01.776" timeWallClock="02:52:06" time="02:45.055" level="Info" category="User">
+            <message>
+							'Go' button is clicked.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="241" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:47.505" timeRelativeToTestModuleStartTime="00:04.226" timeWallClock="02:52:08" time="02:47.505" level="Success" category="User">
+            <message>
+							Edit report page is loaded succfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="247" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="02:47.565" timeRelativeToTestModuleStartTime="00:04.286" timeWallClock="02:52:08" time="02:47.565" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871f0_rxlog.jpg" errthumb=".\Smoke200_1c3871f0_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\carouselBar\searchCatalog\expenseReport.cs" codeline="268" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="24.42s" durationms="24420" type="test-module" rid="38124fe1a2ebd27a" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Select Menu-Option" displayName="Select Menu-Option" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="03:01.319" timeRelativeToTestModuleStartTime="00:13.750" timeWallClock="02:52:22" time="03:01.319" level="Info" category="User">
+            <message>
+							for else - Menu option = Travel &amp; Expense
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="176" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:04.479" timeRelativeToTestModuleStartTime="00:16.910" timeWallClock="02:52:25" time="03:04.479" level="Info" category="User">
+            <message>
+							for else - Menu option = Expense Drafts
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="176" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:11.912" timeRelativeToTestModuleStartTime="00:24.343" timeWallClock="02:52:33" time="03:11.912" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871f3_rxlog.jpg" errthumb=".\Smoke200_1c3871f3_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="210" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:11.914" timeRelativeToTestModuleStartTime="00:24.345" timeWallClock="02:52:33" time="03:11.914" level="Success" category="User">
+            <message>
+							Click operation on menu-options is completed.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="211" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:11.915" timeRelativeToTestModuleStartTime="00:24.346" timeWallClock="02:52:33" time="03:11.915" level="Success" category="User">
+            <message>
+							'Menu option' selection is completed.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="103" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:11.987" timeRelativeToTestModuleStartTime="00:24.418" timeWallClock="02:52:33" time="03:11.987" level="Info" category="Screenshot" errimg=".\Smoke200_1c3871f2_rxlog.jpg" errthumb=".\Smoke200_1c3871f2_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\selectMenuButton.cs" codeline="116" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="5.39s" durationms="5391" type="test-module" rid="7141354cf61ddac" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Delete Expense Draft " displayName="Delete Expense Draft " moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="03:11.992" timeRelativeToTestModuleStartTime="00:00.002" timeWallClock="02:52:33" time="03:11.992" level="Info" category="Variables">
+            <message>
+							varExpenseDraft :PM_22805_05_01_02_50_07
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDrafts.cs" codeline="71" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:17.322" timeRelativeToTestModuleStartTime="00:05.332" timeWallClock="02:52:38" time="03:17.322" level="Success" category="User">
+            <message>
+							Expense draft - 'PM_22805_05_01_02_50_07' is deleted successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDrafts.cs" codeline="80" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:17.380" timeRelativeToTestModuleStartTime="00:05.389" timeWallClock="02:52:38" time="03:17.380" level="Info" category="Screenshot" errimg=".\Smoke200_1c4871ea_rxlog.jpg" errthumb=".\Smoke200_1c4871ea_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\homepage\menuBar\travelAndExpense\manageSearch\expenseDrafts.cs" codeline="93" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+        <activity result="Success" duration="4.85s" durationms="4847" type="test-module" rid="5cb59847becc6a4" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" modulename="Logout" displayName="Logout" moduleid="" moduletype="Unknown" iteration="1" activity-exectype="runiteration" testentry-activity-type="testmodule">
+          <item timeRelativeToTestSuiteStartTime="03:17.388" timeRelativeToTestModuleStartTime="00:00.003" timeWallClock="02:52:38" time="03:17.388" level="Info" category="'AddExpenseItem' - Variables">
+            <message>
+							varURLToBeHit :True
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\logout.cs" codeline="71" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:19.837" timeRelativeToTestModuleStartTime="00:02.452" timeWallClock="02:52:41" time="03:19.837" level="Info" category="User">
+            <message>
+							Mouse is moved to first tab.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\logout.cs" codeline="75" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:22.007" timeRelativeToTestModuleStartTime="00:04.621" timeWallClock="02:52:43" time="03:22.007" level="Success" category="User">
+            <message>
+							Logout by hitting 'Logout URL' - https://pm.baswareqa.com/qapd/cfms/security/logout.cfm is done successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\logout.cs" codeline="84" loglvl="Success">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:22.167" timeRelativeToTestModuleStartTime="00:04.781" timeWallClock="02:52:43" time="03:22.167" level="Info" category="User">
+            <message>
+							Login page is loaded successfully.
+						</message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\logout.cs" codeline="98" loglvl="Info">
+            </metainfo>
+          </item>
+          <item timeRelativeToTestSuiteStartTime="03:22.230" timeRelativeToTestModuleStartTime="00:04.845" timeWallClock="02:52:43" time="03:22.230" level="Info" category="Screenshot" errimg=".\Smoke200_1c4971ea_rxlog.jpg" errthumb=".\Smoke200_1c4971ea_rxlog_thumb.jpg">
+            <message>
+            </message>
+            <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\logout.cs" codeline="110" loglvl="Info">
+            </metainfo>
+          </item>
+        </activity>
+      </activity>
+    </activity>
+    <activity result="Success" duration="3.6m" durationms="214117" type="root" rid="2c5aad22491034b7" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="1" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" user="nitinshak" rxversion="8.3.2.0" host="7VDFPQ2" osversion="Windows 10 64bit" runtimeversion="4.0.30319.42000" procarch="32bit" oslanguage="en-US" dtnlanguage="en-US" screenresolution="1536x864" timestamp="4/30/2020 2:30:52 PM" timestampiso="2020-04-30T09:00:52" endtime="4/30/2020 2:34:26 PM" timeoutfactor="1">
+      <detail>
+			Ranorex Testscript
+		</detail>
+      <activity result="Success" duration="3.6m" durationms="214012" type="test-suite" rid="1aedd3a24252141" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" testsuitename="Smoke Test-Suite" headertext="Smoke Test-Suite" runconfigname="" runlabel="">
+        <item timeRelativeToTestSuiteStartTime="03:34.105" timeRelativeToTestModuleStartTime="03:34.002" timeWallClock="14:34:26" time="03:34.105" level="Success" category="User">
+          <message>
+					 Test Steps as follows - <br />C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\packages\NUnit.ConsoleRunner.3.9.0\tools&gt;nunit3-console  --params:Browser=iexplore;Language=English C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\SmokeTest\bin\debug\SmokeTest.dll --where cat=PM-22805 <br />NUnit Console Runner 3.9.0<br />Copyright (c) 2018 Charlie Poole, Rob Prouse<br /><br />Runtime Environment<br />   OS Version: Microsoft Windows NT 10.0.15063.0<br />  CLR Version: 4.0.30319.42000<br /><br />Test Files<br />    C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\SmokeTest\bin\debug\SmokeTest.dll<br /><br />Test Filters<br />    Where: cat=PM-22805<br /><br />=&gt; SmokeTest.Testcases.TE18_3CFErrorGeneratedWhenExpenseDraftDoesnTExistsFeature.CFErrorGeneratedWhenExpenseDraftDoesNotExists("ST_ReqUser1","Basware@123","ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight","ST_ExpenseItem1",null)<br />Given Launch browser for PM_22805<br />[2020/04/30 14:30:56.831][Debug  ][Logger]: Console logger starting.<br />[2020/04/30 14:30:56.939][Info   ][Test]: Test Suite 'Smoke Test-Suite' started.<br />after reading xml file<br />[2020/04/30 14:30:57.287][Error  ][User]: Exception is found with message - Access is denied<br />[2020/04/30 14:30:57.622][Warn   ][Automation]: The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.<br />[2020/04/30 14:31:06.306][Info   ][Test]: Test Case 'PM_22805' started.<br />[2020/04/30 14:31:06.312][Info   ][Test]: Test Module 'Launch Application for PM_22805' started.<br />[2020/04/30 14:31:06.313][Success][User]: Browser is opened and application is launched successfully.<br />[2020/04/30 14:31:06.402][Success][Test]: Test Module 'Launch Application for PM_22805' completed with status 'Success'.<br />-&gt; done: PM_26608.GivenLaunchPM_26608("PM_22805") (11.9s)<br />When Login with ST_ReqUser1 and Basware@123<br />[2020/04/30 14:31:06.415][Info   ][Test]: Test Module 'Login': run iteration #'1' started.<br />[2020/04/30 14:31:06.416][Info   ][User]: Username = ST_ReqUser1 &amp; Password = Basware@123<br />[2020/04/30 14:31:10.191][Success][User]: TEXT TO COPY : 'ST_ReqUser1'.<br />[2020/04/30 14:31:11.562][Info   ][User]: Select Pasword field.<br />[2020/04/30 14:31:13.936][Success][User]: TEXT TO COPY : 'Basware@123'.<br />[2020/04/30 14:31:26.226][Info   ][User]: Presence of 'Homepage' button is validated.<br />[2020/04/30 14:31:26.227][Success][Test]: Test Module 'Login': run iteration #'1' completed with status 'Success'.<br />-&gt; done: PM_12464.GivenLoginUser("ST_ReqUser1", "Basware@123") (19.8s)<br />Then Select expense report tab on carousel bar<br />[2020/04/30 14:31:26.463][Info   ][Test]: Test Module 'Click Expense Report': run iteration #'1' started.<br />[2020/04/30 14:31:42.034][Success][User]: Expense Report tab is clicked successfully.<br />[2020/04/30 14:31:42.125][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:31:42.129][Success][Test]: Test Module 'Click Expense Report': run iteration #'1' completed with status 'Success'.<br />-&gt; done: PM_22805.SelectTabOfCarouselBar() (15.7s)<br />And Validate no draft is present<br />[2020/04/30 14:31:42.131][Info   ][Test]: Test Module 'Validate No Expense Draft': run iteration #'1' started.<br />[2020/04/30 14:31:45.072][Info   ][User]: Expense report drop-down is clicked successfully.<br />[2020/04/30 14:31:45.592][Success][User]: Presence of 'No drafts' :  Validation is succesful.<br />[2020/04/30 14:31:45.669][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:31:45.671][Success][Test]: Test Module 'Validate No Expense Draft': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:31:45.672][Info   ][Test]: Test Module 'Validate 'Go' button on carousel bar ': run iteration #'1' started.<br />[2020/04/30 14:31:47.519][Info   ][User]: 'Go' button is clicked.<br />[2020/04/30 14:31:48.308][Success][User]: Validation of 'Go Button - Disabled' is successfully completed.<br />[2020/04/30 14:31:48.368][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:31:48.370][Success][Test]: Test Module 'Validate 'Go' button on carousel bar ': run iteration #'1' completed with status 'Success'.<br />-&gt; done: PM_22805.ValidateNoDraft() (6.2s)<br />And General draft method for PM_22805 configure expense report with ST_ExpenseItem1 and ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br />[2020/04/30 14:31:48.380][Success][User]: THIS OBEjct PurchaseManager.com.homepage.menuBar.travelAndExpense.manageSearch.expenseDashboard<br />[2020/04/30 14:31:48.381][Success][User]: THIS OBEjct hascode40062160<br />[2020/04/30 14:31:48.382][Info   ][Test]: Test Module 'Carousel Bar: Click on 'New Expense Draft'': run iteration #'1' started.<br />[2020/04/30 14:31:51.853][Info   ][User]: 'Create New Expense Draft' button is clicked successfully.<br />[2020/04/30 14:31:51.854][Success][Test]: Test Module 'Carousel Bar: Click on 'New Expense Draft'': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:31:51.855][Info   ][User]: Report title - 'PM_22805_04_30_14_31_48'.<br />[2020/04/30 14:31:51.858][Info   ][Test]: Test Module 'Configure 'Create Expense Report' page': run iteration #'1' started.<br />[2020/04/30 14:31:51.859][Info   ][Variables]: varReportTitle :PM_22805_04_30_14_31_48<br /> varChargeTo :<br /> varReportDescription :PM_22805_04_30_14_31_48 description<br /> varOnBehalfOfToBeConfigured :False<br /> varOnBehalfOfFieldValue :<br /> varExpenseItem :ST_ExpenseItem1<br /> varExpenseItemDetails :2020/04/30-2020/05/10-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br /> varAccountCodeValue :<br /> varSplitAccount :<br /> varSplitAccountCodeType :Text<br /> varSaveReport :True<br /> varClickCancel :False<br /> varSubmitReport :False<br />[2020/04/30 14:31:51.862][Info   ]['Configure Report Details' - Variables]: reportTitle :PM_22805_04_30_14_31_48<br /> reportDescription :PM_22805_04_30_14_31_48 description<br /> chargeTo :<br /> varOnBehalfOfToBeConfigured :False<br /> varOnBehalfOfFieldValue :<br />[2020/04/30 14:31:58.971][Success][User]: Text: 'PM_22805_04_30_14_31_48' has been set for the field: 'value'.<br />[2020/04/30 14:32:00.737][Success][User]: Text: 'PM_22805_04_30_14_31_48 description' has been set for the field: 'innertext'.<br />[2020/04/30 14:32:00.737][Info   ][User]: 'On Behalf Of' field is not required to be confgured.<br />[2020/04/30 14:32:00.743][Info   ]['AddExpenseItem' - Variables]: varExpenseItem :ST_ExpenseItem1<br /> varExpenseItemDetails :2020/04/30-2020/05/10-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br /> varSplitAccount :<br />[2020/04/30 14:32:13.072][Success][User]: Expense item === 2020/04/30-2020/05/10-ST_OriginCity-ST_OriginState-ST_DestinationCity-ST_DestinationState-ST_Merchant-ST_Description draft to be deleted-Default-1.0-13-Flight<br />[2020/04/30 14:32:19.551][Success][User]: TEXT TO COPY : '2020/04/30'.<br />[2020/04/30 14:32:23.035][Success][User]: TEXT TO COPY : '2020/05/10'.<br />[2020/04/30 14:32:25.568][Success][User]: TEXT TO COPY : 'ST_OriginCity'.<br />[2020/04/30 14:32:28.401][Success][User]: TEXT TO COPY : 'ST_OriginState'.<br />[2020/04/30 14:32:31.369][Success][User]: TEXT TO COPY : 'ST_DestinationCity'.<br />[2020/04/30 14:32:34.734][Success][User]: TEXT TO COPY : 'ST_DestinationState'.<br />[2020/04/30 14:32:38.284][Success][User]: TEXT TO COPY : 'ST_Merchant'.<br />[2020/04/30 14:32:39.653][Info   ][User]: 'Merchant' field is configured with value - ST_Merchant<br />[2020/04/30 14:32:42.237][Success][User]: TEXT TO COPY : 'ST_Description draft to be deleted'.<br />[2020/04/30 14:32:46.017][Info   ][User]: 'Description Purpose' field is configured with value - ST_Description draft to be deleted<br />[2020/04/30 14:32:49.934][Info   ][User]: Payment type is configured with value - Default<br />[2020/04/30 14:32:51.317][Success][User]: TEXT TO COPY : '1.0'.<br />[2020/04/30 14:32:51.836][Info   ][User]: 'Quantity' is configured with value: 1.0<br />[2020/04/30 14:32:54.033][Success][User]: TEXT TO COPY : '13'.<br />[2020/04/30 14:32:54.449][Info   ][User]: 'Amount' is configured with value: 13<br />[2020/04/30 14:32:54.450][Success][User]: Item count = 12 <br />[2020/04/30 14:33:04.857][Success][User]: TEXT TO COPY : '13'.<br />[2020/04/30 14:33:05.282][Info   ][User]: 'Account Code' field is not required to be configured.<br />[2020/04/30 14:33:13.157][Success][User]: Saving of report -  Validation is succesful.<br />[2020/04/30 14:33:18.868][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:33:18.871][Success][Test]: Test Module 'Configure 'Create Expense Report' page': run iteration #'1' completed with status 'Success'.<br />-&gt; done: PM_22805.ConfigureExpenseReport("PM_22805", "ST_ExpenseItem1", "ST_OriginCity-ST_...") (90.5s)<br />And Validate just created draft is present<br />[2020/04/30 14:33:18.879][Info   ][Test]: Test Module 'Search Home Button': run iteration #'1' started.<br />[2020/04/30 14:33:27.496][Success][User]: Home button is clicked succesffuly.<br />[2020/04/30 14:33:27.570][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:33:27.573][Success][Test]: Test Module 'Search Home Button': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:33:27.574][Info   ][Test]: Test Module 'Click Expense Report': run iteration #'1' started.<br />[2020/04/30 14:33:43.778][Success][User]: Expense Report tab is clicked successfully.<br />[2020/04/30 14:33:43.867][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:33:43.870][Success][Test]: Test Module 'Click Expense Report': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:33:43.871][Info   ][Test]: Test Module 'Validate Expense Draft ': run iteration #'1' started.<br />[2020/04/30 14:33:43.872][Info   ][Variables]: varDraftName :PM_22805_04_30_14_31_48<br />[2020/04/30 14:33:47.158][Success][User]: Presence of draft - 'PM_22805_04_30_14_31_48' :  Validation is succesful.<br />[2020/04/30 14:33:47.268][Info   ][User]: Draft : 'PM_22805_04_30_14_31_48' is validated succssfully.<br />[2020/04/30 14:33:47.351][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:33:47.354][Success][Test]: Test Module 'Validate Expense Draft ': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:33:47.355][Info   ][Test]: Test Module 'Validate 'Go' button on carousel bar ': run iteration #'1' started.<br />[2020/04/30 14:33:49.219][Info   ][User]: 'Go' button is clicked.<br />[2020/04/30 14:33:51.446][Success][User]: Edit report page is loaded succfully.<br />[2020/04/30 14:33:51.526][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:33:51.528][Success][Test]: Test Module 'Validate 'Go' button on carousel bar ': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:33:51.529][Info   ][Test]: Test Module 'Select Menu-Option': run iteration #'1' started.<br />[2020/04/30 14:34:05.099][Info   ][User]: for else - Menu option = Travel &amp; Expense<br />[2020/04/30 14:34:08.443][Info   ][User]: for else - Menu option = Expense Drafts<br />[2020/04/30 14:34:16.087][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:34:16.089][Success][User]: Click operation on menu-options is completed.<br />[2020/04/30 14:34:16.090][Success][User]: 'Menu option' selection is completed.<br />[2020/04/30 14:34:16.164][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:34:16.167][Success][Test]: Test Module 'Select Menu-Option': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:34:16.169][Info   ][Test]: Test Module 'Delete Expense Draft ': run iteration #'1' started.<br />[2020/04/30 14:34:16.170][Info   ][Variables]: varExpenseDraft :PM_22805_04_30_14_31_48<br />[2020/04/30 14:34:21.557][Success][User]: Expense draft - 'PM_22805_04_30_14_31_48' is deleted successfully.<br />[2020/04/30 14:34:21.629][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:34:21.631][Success][Test]: Test Module 'Delete Expense Draft ': run iteration #'1' completed with status 'Success'.<br />-&gt; done: PM_22805.ConfigureExpenseReport() (62.8s)<br />And Close the testcase<br />[2020/04/30 14:34:21.638][Info   ][Test]: Test Module 'Logout': run iteration #'1' started.<br />[2020/04/30 14:34:21.639][Info   ]['AddExpenseItem' - Variables]: varURLToBeHit :True<br />[2020/04/30 14:34:24.238][Info   ][User]: Mouse is moved to first tab.<br />[2020/04/30 14:34:26.282][Success][User]: Logout by hitting 'Logout URL' - https://pm.baswareqa.com/qapd/cfms/security/logout.cfm is done successfully.<br />[2020/04/30 14:34:26.441][Info   ][User]: Login page is loaded successfully.<br />[2020/04/30 14:34:26.521][Info   ][Screenshot]: Data logged: System.Drawing.Bitmap<br />[2020/04/30 14:34:26.523][Success][Test]: Test Module 'Logout': run iteration #'1' completed with status 'Success'.<br />[2020/04/30 14:34:26.524][Success][Test]: Test Case 'PM_22805' completed with status 'Success'.<br />[2020/04/30 14:34:26.524][Success][Test]: Test Suite 'Smoke Test-Suite' completed with status 'Success'.<br />-&gt; done: PM_10819.EnableExpenseitem() (4.9s)<br /><br />Run Settings<br />    DisposeRunners: True<br />    WorkDirectory: C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\packages\NUnit.ConsoleRunner.3.9.0\tools<br />    TestParametersDictionary:<br />        Browser -&gt; iexplore<br />        Language -&gt; English<br />    TestParameters: Browser=iexplore;Language=English<br />    ImageRuntimeVersion: 4.0.30319<br />    ImageTargetFrameworkName: .NETFramework,Version=v4.5.2<br />    ImageRequiresX86: True<br />    RunAsX86: True<br />    ImageRequiresDefaultAppDomainAssemblyResolver: False<br />    NumberOfTestWorkers: 8<br /><br />Test Run Summary<br />  Overall result: Passed<br />  Test Count: 1, Passed: 1, Failed: 0, Warnings: 0, Inconclusive: 0, Skipped: 0<br />  Start time: 2020-04-30 09:00:53Z<br />    End time: 2020-04-30 09:04:26Z<br />    Duration: 212.883 seconds<br /><br />Results (nunit3) saved as TestResult.xml<br /><br />C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\packages\NUnit.ConsoleRunner.3.9.0\tools&gt;exit
+
+				</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\TestSuites\SmokeTest\SmokeTest\testcaseSteps\com_PreRequisites.cs" codeline="284" loglvl="Success" />
+        </item>
+      </activity>
+    </activity>
+    <activity result="Success" duration="0ms" durationms="0" type="root" rid="22c5691b51f8b002" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="1" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" user="nitinshak" rxversion="8.3.2.0" host="7VDFPQ2" osversion="Windows 10 64bit" runtimeversion="4.0.30319.42000" procarch="32bit" oslanguage="en-US" dtnlanguage="en-US" screenresolution="1536x864" timestamp="5/1/2020 2:49:16 AM" timestampiso="2020-04-30T21:19:16" endtime="5/1/2020 2:49:18 AM" timeoutfactor="1">
+      <detail>
+			Ranorex Testscript
+		</detail>
+      <activity result="Success" duration="0ms" durationms="0" type="test-suite" rid="1b3c151e8914e52c" totalerrorcount="0" totalwarningcount="0" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" testsuitename="Smoke Test-Suite" headertext="Smoke Test-Suite" runconfigname="" runlabel="" />
+    </activity>
+    <activity result="Success" duration="0ms" durationms="0" type="root" rid="1574b0822a1f0e4a" totalerrorcount="1" totalwarningcount="1" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="1" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" user="nitinshak" rxversion="8.3.2.0" host="7VDFPQ2" osversion="Windows 10 64bit" runtimeversion="4.0.30319.42000" procarch="32bit" oslanguage="en-US" dtnlanguage="en-US" screenresolution="1920x1080" timestamp="5/1/2020 2:49:21 AM" timestampiso="2020-04-30T21:19:21" endtime="5/1/2020 2:49:22 AM" timeoutfactor="1">
+      <detail>
+			Ranorex Testscript
+		</detail>
+      <activity result="Success" duration="0ms" durationms="0" type="test-suite" rid="a3c111780f07c85" totalerrorcount="1" totalwarningcount="1" totalsuccesstestcasecount="0" totalfailedtestcasecount="0" totalblockedtestcasecount="0" childsuccesscount="0" childfailedcount="0" childblockedcount="0" totalsuccesscount="0" totalfailedcount="0" totalblockedcount="0" totalmaintenancemodecount="0" testsuitename="Smoke Test-Suite" headertext="Smoke Test-Suite" runconfigname="" runlabel="">
+        <item timeRelativeToTestSuiteStartTime="00:00.456" timeRelativeToTestModuleStartTime="00:00.392" timeWallClock="02:49:21" time="00:00.456" level="Error" category="User">
+          <message>
+					Exception is found with message - Access is denied
+				</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\Utility\com\killBrowserSessions.cs" codeline="69" loglvl="Error" />
+        </item>
+        <item timeRelativeToTestSuiteStartTime="00:00.818" timeRelativeToTestModuleStartTime="00:00.754" timeWallClock="02:49:22" time="00:00.818" level="Warn" category="Automation">
+          <message>
+					The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+				</message>
+          <metainfo codefile="C:\Basware_SourceCode\Automation\Basware_1903\Verian\Library\PurchaseManager\com\common\LaunchApplication.cs" codeline="91" loglvl="Warn" />
+        </item>
+      </activity>
+    </activity>
+  </activity>
+</report>

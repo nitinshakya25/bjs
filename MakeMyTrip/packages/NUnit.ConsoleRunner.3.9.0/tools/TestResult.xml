@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2021-06-14 00:36:20Z" end-time="2021-06-14 00:36:34Z" duration="13.961913">
+  <command-line><![CDATA[nunit3-console.exe  --params:Browser=chrome;Language=English ""C:\BJS\MakeMyTrip\MakeMyTrip\bin\Debug\MakeMyTrip.dll"" --where cat='mmt_test']]></command-line>
+  <filter>
+    <cat>mmt_test</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1003" name="MakeMyTrip.dll" fullname="MakeMyTrip.dll" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.388420" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19042.0" platform="Win32NT" cwd="C:\BJS\MakeMyTrip\packages\NUnit.ConsoleRunner.3.9.0\tools" machine-name="7VDFPQ2" user="nitinshak" user-domain="BASWARE" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\BJS\MakeMyTrip\packages\NUnit.ConsoleRunner.3.9.0\tools" />
+      <setting name="TestParametersDictionary" value="[Browser, chrome], [Language, English]">
+        <item key="Browser" value="chrome" />
+        <item key="Language" value="English" />
+      </setting>
+      <setting name="TestParameters" value="Browser=chrome;Language=English" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="42024" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1004" name="MakeMyTrip" fullname="MakeMyTrip" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.377001" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <properties />
+      <test-suite type="TestSuite" id="0-1005" name="Test" fullname="MakeMyTrip.Test" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.376716" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestFixture" id="0-1000" name="MMTFlightTestFeature" fullname="MakeMyTrip.Test.MMTFlightTestFeature" classname="MakeMyTrip.Test.MMTFlightTestFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.374888" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <properties>
+            <property name="Description" value="MMT flight test" />
+          </properties>
+          <test-suite type="ParameterizedMethod" id="0-1002" name="MMTFlightTest" fullname="MakeMyTrip.Test.MMTFlightTestFeature.MMTFlightTest" classname="MakeMyTrip.Test.MMTFlightTestFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.148237" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <properties>
+              <property name="Description" value="MMT flight test" />
+              <property name="Category" value="mmt_test" />
+            </properties>
+            <test-case id="0-1001" name="MMTFlightTest(&quot;Flight&quot;,&quot;Delhi&quot;,&quot;Chandigarh&quot;,&quot;26-06-2021&quot;,&quot;30-06-2021&quot;,null)" fullname="MakeMyTrip.Test.MMTFlightTestFeature.MMTFlightTest(&quot;Flight&quot;,&quot;Delhi&quot;,&quot;Chandigarh&quot;,&quot;26-06-2021&quot;,&quot;30-06-2021&quot;,null)" methodname="MMTFlightTest" classname="MakeMyTrip.Test.MMTFlightTestFeature" runstate="Runnable" seed="486482846" result="Passed" start-time="2021-06-14 00:36:21Z" end-time="2021-06-14 00:36:34Z" duration="13.144238" asserts="0">
+              <properties />
+              <output><![CDATA[Given Prerequisites of the testcase
+[2021/06/14 06:06:22.637][Debug  ][Logger]: Console logger starting.
+[2021/06/14 06:06:22.678][Success][User]: XML Validation successful.
+[2021/06/14 06:06:23.122][Info   ][Test]: Test Suite 'Smoke Test-Suite' started.
+[2021/06/14 06:06:23.123][Info   ][Test]: Test Case 'mmt' started.
+[2021/06/14 06:06:23.125][Info   ][Test]: Test Module 'Launch URL' started.
+-> done: mmtTest.PreRequisite() (1.5s)
+When Launch browser for MMM_TEST
+after reading xml file
+[2021/06/14 06:06:23.366][Info   ][User]: Launched URL :https://www.makemytrip.com
+[2021/06/14 06:06:23.700][Warn   ][Automation]: The apartment state of the current thread is not set to STA. Please make sure that all threads accessing Ranorex methods have their apartment state set to STA.
+-> done: mmtTest.LaunchBrowser() (5.4s)
+Then Click on tab Flight on homepage
+[2021/06/14 06:06:28.547][Success][Test]: Test Module 'Launch URL' completed with status 'Success'.
+[2021/06/14 06:06:28.548][Info   ][Test]: Test Module 'Select Home-Button': run iteration #'1' started.
+[2021/06/14 06:06:31.280][Success][User]: MMT 'Home Page Button' button is clicked successfully.
+[2021/06/14 06:06:31.364][Success][Test]: Test Module 'Select Home-Button': run iteration #'1' completed with status 'Success'.
+[2021/06/14 06:06:31.364][Info   ][Test]: Test Module 'Select Flight': run iteration #'1' started.
+[2021/06/14 06:06:34.578][Success][User]: MMT 'Home Page Button' button is clicked successfully.
+[2021/06/14 06:06:34.674][Success][Test]: Test Module 'Select Flight': run iteration #'1' completed with status 'Success'.
+-> done: mmtTest.SelectTab("Flight") (6.2s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

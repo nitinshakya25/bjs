@@ -1,0 +1,314 @@
+﻿<repository
+id="184422ed-324a-4aed-b039-58148eae1b2b"
+name="MakeMyTripRepository"
+rxversion="8.3">
+	<codegen
+	classname="MakeMyTripRepository"
+	namespace="MakeMyTrip">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7cf8b46d-c687-4f16-bfce-cf02b6431f7c"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="webdocument"
+		id="ee98a101-93a4-4936-ae78-ad971e4db8ed"
+		isrooted="True"
+		name="MMT"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			capname="atag"
+			id="02b37266-4019-4381-8c53-989dbd616f95"
+			name="HomeButton"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'SW']//a
+			</item>
+			<item
+			capname="spantag"
+			id="0b4b86c4-16b1-45e2-b9db-dabbf6e78137"
+			name="Flight"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'SW']//div[@class='headerOuter']//li[@class='menu_Flights']//span[@innertext='Flights']
+			</item>
+			<item
+			capname="litag"
+			id="4a6bc851-0156-4ade-b0a8-424cca5bb687"
+			name="RoundTrip"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']//div[@class='makeFlex']/ul/li[@innertext='Round Trip']
+			</item>
+			<item
+			capname="inputtag"
+			id="489478f8-1dc4-48b6-9adc-7a7d1894dc6f"
+			name="From"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//input[#'fromCity']
+			</item>
+			<item
+			capname="ptag"
+			id="43d93920-edee-479e-8144-ed470330def8"
+			name="FromSuggestionOption"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'react-autowhatever-1']//p[@innertext='SUGGESTIONS ']/../../ul/li//p[@innertext~$R_DropDownOption]
+			</item>
+			<item
+			capname="divtag"
+			id="32dd1723-04f5-49f8-b027-93daafe8d8cc"
+			name="FromOptionList"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'react-autowhatever-1']
+			</item>
+			<item
+			capname="inputtag"
+			id="3c1e2843-0c40-4c6d-aed2-05ca9e82fd16"
+			name="To"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//input[#'toCity']
+			</item>
+			<item
+			capname="ptag"
+			id="19dddf5d-5545-47b8-a860-9f4b98fa1877"
+			name="ToSuggestionOption"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'react-autowhatever-1']//p[@innertext='SUGGESTIONS ']/../../ul/li//p[@innertext~$R_DropDownOption]
+			</item>
+			<item
+			capname="ultag"
+			id="4391044f-43ef-43a5-9266-c14041fd7477"
+			name="RecentSearchList"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'react-autowhatever-1']//p[@innertext='RECENT SEARCHES']/../../ul
+			</item>
+			<item
+			capname="ultag"
+			id="f6ff3e12-9d72-48cc-9743-c3f18d510f55"
+			name="PopularCitiesList"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'react-autowhatever-1']//p[@innertext='POPULAR CITIES']/../../ul
+			</item>
+			<folder
+			capname="unknown"
+			id="96fc6a85-25d2-46c0-9815-14424a864569"
+			isrooted="False"
+			name="Date"
+			searchtimeout="0ms">
+				<item
+				capname="inputtag"
+				id="06705a54-e14f-4201-8858-908cdbfa7392"
+				name="DepartDate"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//input[#'departure']
+				</item>
+				<item
+				capname="ptag"
+				id="df15b8df-12cb-493a-abab-5835f23f156e"
+				name="DepartReturnDate"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']//div[@class='datePickerContainer']//div[@class='DayPicker-Months']/div[@childindex=$R_Index]/div/..//div[@class~'DayPicker-Day' and @aria-disabled='false']/div/p[@innertext=$R_Day and @visible='true']
+				</item>
+			</folder>
+			<item
+			capname="atag"
+			id="b83aa44b-1f38-4818-9b0f-27a7012e2ac5"
+			name="Search"
+			searchtimeout="30000ms">
+				/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div//a[@innertext=$RL_Search]
+			</item>
+			<folder
+			capname="unknown"
+			id="8b89dd75-9a67-476b-978c-38731d41ce85"
+			isrooted="False"
+			name="SearchResult"
+			searchtimeout="0ms">
+				<folder
+				capname="unknown"
+				id="c6b2dca0-f300-46e6-b2fc-3f7005213bc2"
+				isrooted="False"
+				name="Depart"
+				searchtimeout="0ms">
+					<item
+					capname="spantag"
+					id="aab1b41e-3fe6-4346-83ca-2b1b0945295a"
+					name="DepartureSort"
+					searchtimeout="30000ms">
+						/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'sorting-togglers']//span[@innertext='Departure']
+					</item>
+					<item
+					capname="labeltag"
+					id="26101ef5-6cea-4dd9-9750-8d63d1a1835f"
+					name="FirstFlight"
+					searchtimeout="30000ms">
+						/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'listing-id']//div[@childindex='0' and @class='paneView']/div[@class='listingCardWrap']/div/label[1]
+					</item>
+				</folder>
+				<folder
+				capname="unknown"
+				id="2bcc9de4-4262-46c9-a69b-f79ab36a7b83"
+				isrooted="False"
+				name="Return"
+				searchtimeout="0ms">
+					<item
+					capname="spantag"
+					id="0ceae54e-60c8-47f4-93c7-291d2b13d64a"
+					name="DepartureSort"
+					searchtimeout="30000ms">
+						/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'listing-id']/div/div[2]/?/?/div[@id='sorting-togglers']/div[1]//span[@innertext='Departure']
+					</item>
+					<item
+					capname="labeltag"
+					id="0a66157e-275e-4cc6-ab03-6a9e60efb8e8"
+					name="FirstFlight"
+					searchtimeout="30000ms">
+						/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'listing-id']//div[@childindex='1' and @class='paneView']/div[@class='listingCardWrap']/div/label[1]
+					</item>
+				</folder>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="efba82bd-ee3c-4ec9-9fe0-9363a7b84cd4"
+				name="BookNow"
+				refimgid="0e819f34-64ac-40d7-ad60-b0f60c07297c"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'listing-id']//button[@innertext='Book Now']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="0aaa2f2f-8ece-42a4-a7db-5494d3aa0ed2"
+				name="Continue"
+				refimgid="0e819f34-64ac-40d7-ad60-b0f60c07297c"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'listing-id']//button[@innertext='Continue']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="1b97dfe1-bd10-4ba3-91e4-c60aff14d74f"
+			isrooted="False"
+			name="Review"
+			searchtimeout="1000ms">
+				<item
+				capname="spantag"
+				id="3218111c-c5db-4ede-9401-ed6f0e71021a"
+				name="BaseFare"
+				searchtimeout="45000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[@class='review-page']//div[@class='fareSmry-sctn']//span[@innertext='Base Fare']/../../../div[2]/p/span[2]/span
+				</item>
+				<item
+				capname="spantag"
+				id="1a6c72ef-08d0-44d4-bac2-bfd0ffdf144b"
+				name="FeeSurcharges"
+				searchtimeout="45000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[2]//span[@innertext='Fee &amp; Surcharges']/../../span
+				</item>
+				<item
+				capname="spantag"
+				id="d06cf2c2-5b6a-48af-8da5-d09694bb5c63"
+				name="OtherServices"
+				searchtimeout="45000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div[2]/div[1]/div[2]/div[1]/div/div[3]//span[@innertext='Other Services']/../../span
+				</item>
+				<item
+				capname="spantag"
+				id="563bc7f2-16d9-4900-9424-0dcccc45f332"
+				name="TotalAmount"
+				searchtimeout="45000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']//div[@class='review-page']//div[@class='fareSmry-sctn reqPad-fareSmry-sctn']//span[@innertext~'Total Amount']/../../../span[2]/span/span
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="74977c83-75d5-4e0e-ab1e-ccb90f586dbb"
+			isrooted="False"
+			name="Tab"
+			searchtimeout="0ms">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="unknown"
+				id="85294718-db2d-4dea-876a-d9e69f7da39f"
+				name="CurrentTabClose"
+				refimgid="0e819f34-64ac-40d7-ad60-b0f60c07297c"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']/../form[@title~'^MakeMyTrip']/container[@accessiblename~'^MakeMyTrip']//tabpagelist[@accessiblerole='PageTabList']//tabpage[@accessiblerole='PageTab' and @title='MakeMyTrip' and @visible='true' and @selected='true']//*[@text='Close' and @visible='true']
+				</item>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b0acfd19-095f-4ae8-89ca-fbe029e024c2"
+			isrooted="True"
+			name="FswInputBoxDatesInactiveWidget"
+			refpath="/dom[@domain='www.makemytrip.com']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="56dca57f-42ff-4e55-a416-8c4b0b5311ab"
+				name="PTag30"
+				refimgid="455205e0-8053-4468-aa36-036af1a721d9"
+				refpath="/dom[@domain='www.makemytrip.com']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[4]/div/p[@innertext='30']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[4]/?/?/p[@innertext='30']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="0626d505-f5dc-4a90-a247-0df63dcfb51f"
+				name="PTag8"
+				refimgid="167b2a7d-452f-4ead-a43a-45ead8a11f11"
+				refpath="/dom[@domain='www.makemytrip.com']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[2]/div[3]/div[2]/div[5]/div/p[@innertext='8']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[2]/div[3]/div[2]/div[5]/?/?/p[@innertext='8']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="229ddb3a-d9ae-43ea-b3a9-819e3b5e9e5a"
+				name="SpanTagJun"
+				refimgid="f51fc969-ee45-4882-9a99-6045785f337e"
+				refpath="/dom[@domain='www.makemytrip.com']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/label/p[1]/span[@innertext='Jun']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]/label/p[1]/span[@innertext='Jun']
+				</item>
+				<basepath>
+					/dom[@domain='www.makemytrip.com' and @visible='true']//div[#'root']/div/div[2]/div/div[1]/div[2]/div[1]/div[3]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='www.makemytrip.com' and @visible='true']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="b91f8b84-ebdc-4c9d-8b84-12ccf082a4a7"
+		name="R_Login">
+			Log In
+		</var>
+		<var
+		id="ff3dec9f-f7f8-4c8e-83fc-f27a549036ca"
+		name="R_Index">
+			1
+		</var>
+		<var
+		id="1260d464-40ff-4834-82f3-92f851aeb304"
+		name="R_DropDownOption">
+		</var>
+		<var
+		id="e4e606b0-0ea8-42d8-889c-6957441a47ee"
+		name="R_Day">
+			12
+		</var>
+		<var
+		id="f30cf43b-6ed0-42ed-892c-489fcd3adb08"
+		name="RL_Search">
+		</var>
+	</variables>
+</repository>

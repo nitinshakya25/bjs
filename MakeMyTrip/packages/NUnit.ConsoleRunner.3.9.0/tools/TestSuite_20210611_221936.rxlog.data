@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="12aa034d1be0cda"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="nitinshak"
+		rxversion="8.3.3.0"
+		host="7VDFPQ2"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1536x864"
+		timestamp="6/11/2021 10:19:36 PM"
+		timestampiso="2021-06-11T16:49:36"
+		endtime="6/11/2021 10:19:38 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.321"
+			timeRelativeToTestModuleStartTime="00:00.322"
+			timeWallClock="22:19:36"
+			time="00:00.321"
+			level="Info"
+			category="User">
+			<message>
+				Launch asdlkas
+			</message>
+			<metainfo
+				codefile="C:\BJS\MakeMyTrip\MakeMyTrip\testSteps\mmtTest.cs"
+				codeline="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.344"
+			timeRelativeToTestModuleStartTime="00:00.345"
+			timeWallClock="22:19:36"
+			time="00:00.344"
+			level="Info"
+			category="User">
+			<message>
+				tab
+			</message>
+			<metainfo
+				codefile="C:\BJS\MakeMyTrip\MakeMyTrip\testSteps\mmtTest.cs"
+				codeline="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
